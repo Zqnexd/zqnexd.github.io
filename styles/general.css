@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+body{
+    color: white;
+    margin: 0;
+}
+
+aside{
+    display: none;
+}
+header{
+    background-color: #1b1b1b;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+}
+#banner{
+    height: 100vh;
+}
+#banner #primer{
+    height: 100%;
+}
+article#primer{
+    background-image: url(/img/fondos/fondo\ seccion1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#oscur{
+    background-color: rgba(27, 27, 27, 0.7);
+    height: 100%;
+}
+.logo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+}
+#btn2{
+    color: white;
+}
+.logo h1{
+    padding: 10px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}
+.logo span{
+    color: #8c8c8c;
+}
+#principal{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#principal h2{
+    font-size: 40px;
+}
+#principal h3{
+    font-size: 30px;
+}
+#principal span{
+    margin-top: 50px;
+}
+#principal span button#btn1{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 40px;
+    width: 40%;
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+    margin: 10px;
+    margin: 0 auto 15px;
+    font-size: 25px;
+    border: none;
+}
+#principal span button#btn2{
+    padding: 15px;
+    border-radius: 40px;
+    width: 40%;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    margin: 10px;
+    margin: 0 auto 15px;
+    font-size: 25px;
+    border: 3px solid white;
+}
+footer{
+    background-color: #212121;
+}
+footer .logo h1{
+    font-size: 40px;
+    padding: 0;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+}
+#footer{
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+}
+#footer div{
+    width: 50%;
+    margin: 25px;
+}
+#footer div p {
+    font-size: 150%;
+    line-height: 60px;
+}
+#footer div p {
+    text-align: right;
+    text-decoration: underline;
+}
+#footer div#info1 p{
+    text-align: left;
+    text-decoration: none;
+}
+#info1{
+    border-right: solid 1px #595959;
+}

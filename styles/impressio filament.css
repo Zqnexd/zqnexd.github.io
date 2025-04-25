@@ -1,0 +1,158 @@
+body, button{
+    font-family: "Jura", serif;
+}
+.primer{
+    width: 100%;
+    height: 20%;
+}
+#fondoimg{
+    background-image: url(/img/impressio1/designer-using-3d-printer.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px; 
+}
+#fondocolor{
+    width: 100%;
+    background: linear-gradient(to right, #2b2b2b 50%, rgba(0, 0, 0, 0));
+    height: 400px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#img1{
+    width: 40%;
+}
+#part1{
+    width: 60%;
+}
+#img1 img{
+    width: 80%;
+    margin: 30px;
+}
+#part1 img{
+    width: 70px;
+    padding: 10px;
+}
+#part1 h1{
+    font-size: 30px;
+}
+#part1 p{
+    font-size: 20px;
+}
+#part1 h2{
+    font-size: 35px;
+}
+.slogan{
+    display: flex;
+    flex-wrap: wrap;
+}
+#segon{
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+#segon h1{
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    padding: 40px;
+}
+#segon p{
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#tercer{
+    width: 100%;
+    height: 950px;
+    background-color: #2b2b2b;
+}
+#separar2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 0 10%;
+}
+#tercer h1{
+    font-size: 45px;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#img2{
+    width: 35%;
+    height: 750px;
+    border-radius: 40px;
+    background-image: url(/img/impressio1/osman-talha-dikyar-1MZ9JjAXg1E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#text1{
+    width: 40%;
+    font-size: 30px;
+    padding-top: 0;
+    margin-top: 0;
+}
+#text1 button{
+    background-color: white;
+    color: black;
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 30px;
+    border: none;
+    margin-top: 50px;
+}
+#text1 button span{
+    font-weight: bold;
+}
+#textsegon{
+    padding-top: 50px;
+}
+#textercer{
+    padding-top: 50px;
+}
+
+#quart{
+    background-color: #1b1b1b;
+    
+}
+#separar2{
+    margin: 0;
+    padding: 30px;
+}
+
+#img3{
+    width: 35%;
+    border-radius: 40px;
+    background-image: url(/img/impressio1/minku-kang-aCniNTiIFd8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#textprimer{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#precio{
+    background-color: #2b2b2b;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
