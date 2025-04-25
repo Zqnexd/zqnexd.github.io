@@ -47,7 +47,7 @@ body, button{
     font-size: 25px;
 }
 #quart{
-    background-image: url(/img/fondos/fondo2.jpg);
+    background-image: url(fondos/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
